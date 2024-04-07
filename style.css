@@ -84,6 +84,7 @@
     align-items: center;
     justify-content: center;
     backdrop-filter: blur(10px);
+    display: none;
 }
 .date span {
     font-size: 24px;
