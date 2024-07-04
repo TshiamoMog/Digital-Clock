@@ -174,14 +174,17 @@ body {
     .analogue__hour-arm {
         width: 4px;
         height: 40px;
+        transform: rotateZ(calc(12 / 12 * 360deg));
     }
     .analogue__minutes-arm {
         width: 4px;
         height: 62px;
+        transform: rotateZ(calc(33 / 60 * 360deg));
     }
     .analogue__seconds-arm {
         width: 2px;
         height: 70px;
+        transform: rotateZ(calc(21 / 60 * 360deg));
     }
     .clock__date {
         margin-bottom: 1.5rem;
